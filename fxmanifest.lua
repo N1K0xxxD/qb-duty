@@ -3,8 +3,14 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'n1k0'
-description 'Toggle Duty Script for QBCore'
-version '0.0.1'
+description 'Toggle Duty Script with Admin Menu for QBCore'
+version '1.0.0'
+
+dependencies {
+    'qb-core',
+    'qb-menu',
+    'qb-input'
+}
 
 client_scripts {
     'client.lua',
